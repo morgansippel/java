@@ -1,0 +1,3 @@
+System.out.printf("The time is %d.%n", System.currentTimeMillis());
+long now = System.currentTimeMillis()/1000/60/60/24;
+System.out.println(now + " days")
